@@ -69,6 +69,9 @@ if(message.content.includes('คิดถึงนมน')) {
 if(message.content.includes('หลีกมิวนัก')) {
     message.reply('หลีกสิคะ หนูจะเดิน เดินไม่ได้');
    }
+if(message.content.includes('เกลือ')) {
+    message.reply('หนูไม่ได้เกลือค่ะ แค่เป็นตัวของตัวเอง พี่โม่งอย่าเปลี่ยนอะไรหนูเล้ยยย');
+   }
 if(message.content.includes('ขอหยิก')) {
     message.reply('ม...ไม่ได้นะคะ');
 const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/556315295418155018/image0-112.jpg')
