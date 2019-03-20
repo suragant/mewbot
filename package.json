@@ -4,7 +4,7 @@
   "description": "Mewnich Bot",
   "main": "server.js",
     "scripts": {
-    "start": "node server.js"
+    "start": "node mew.js"
   },
   "author": "ปกคม",
   "dependencies": {
