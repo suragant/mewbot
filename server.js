@@ -95,5 +95,10 @@ if(message.content.includes('หิวข้าว')) {
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556137830812745739/556735934280761366/mewwx2.gif')
     message.reply(webAttachment);
    }
+  if(message.content.includes('ฝันดี')) {
+	message.reply('ฝันดีค่ะพี่โม่ง จุ๊บบบ');
+    const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/487520050459312138/557942330523516928/image0.gif')
+    message.reply(webAttachment);
+   }
 });
 botMew.login(discord_token);     
