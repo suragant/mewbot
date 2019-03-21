@@ -16,15 +16,14 @@ botMew.on('message', message => {
   }
 });
 botMew.on('message', message => { 
-  if (message.content === 'มองกล้อง') {
-    message.reply('หนูมีโควต้ามองกล้องได้คนละ 1 วินาทีค่าาา พลาดเเล้วพลาดเลยน๊าาา');
-  }
-});
-botMew.on('message', message => { 
-  if (message.content === 'หยิกมิว') {
+ if (message.author == botMew.user) {
+        return
+    } 
+  if (message.content === ('หยิกมิว')) {
     message.reply('มิวอะไรคะ มิวนักรึป่าวน๊าาาาา');
   }
 });
+
 botMew.on('message', message => { 
   if (message.content === 'ยังไงนะเราหน่ะ') {
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/556197703135264788/558.png')
@@ -46,10 +45,7 @@ if (message.author == botMew.user) {
         return
     }
 if(message.content.includes('มีวัว')) {
-    message.reply('เหหหหหหหหหหห');
-   }
-if(message.content.includes('เรื้อนว่ะ')) {
-    message.reply('หนูละเบื่อพวกเรื้อน');
+    message.reply('หนูไม่มีวัวค่ะ มีแต่สัญญาหน้าฝน');
    }
 if(message.content.includes('อยากใส่เดี่ยว')) {
     message.reply('ก็มาดิค๊าาาาาาา');
@@ -63,11 +59,14 @@ if(message.content.includes('หิวนมน')) {
 if(message.content.includes('คิดถึงนมน')) {
     message.reply('คิดถึงหนูก็คุยกับ ฟตซ หนูไปพลางๆก่อนนะค๊าาาา');
    }
-if(message.content.includes('หลีกมิวนัก')) {
+if(message.content.includes('หลีกมิวนักก')) {
     message.reply('หลีกสิคะ หนูจะเดิน เดินไม่ได้');
    }
+if(message.content.includes('มองกล้อง')) {
+    message.reply('หนูมีโควต้ามองกล้องได้คนละ 1 วินาทีค่าาา พลาดเเล้วพลาดเลยน๊าาา');
+   }
 if(message.content.includes('มิวนัก')) {
-    message.reply('ยักมิวนิคค');
+    message.reply('ยักมิวนิคคคค');
   const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/558242677771206656/haQhZWwXpUvn6Zap.mp4')
     message.reply(webAttachment);
    }
@@ -103,6 +102,9 @@ if(message.content.includes('หิวข้าว')) {
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/487520050459312138/557942330523516928/image0.gif')
     message.reply(webAttachment);
    }
+    if(message.content.includes('น่ารัก')) {
+	message.reply('ถ้ารักหนู ก็ทนให้ได้เวลาที่หนูเกลือด้วยนะค๊าาาาาาา');
      }
+  }
 });
 botMew.login(discord_token);     
