@@ -59,14 +59,10 @@ if(message.content.includes('หิวนมน')) {
 if(message.content.includes('คิดถึงนมน')) {
     message.reply('คิดถึงหนูก็คุยกับ ฟตซ หนูไปพลางๆก่อนนะค๊าาาา');
    }
-if(message.content.includes('หลีกมิวนักก')) {
-    message.reply('หลีกสิคะ หนูจะเดิน เดินไม่ได้');
-   }
 if(message.content.includes('มองกล้อง')) {
     message.reply('หนูมีโควต้ามองกล้องได้คนละ 1 วินาทีค่าาา พลาดเเล้วพลาดเลยน๊าาา');
    }
 if(message.content.includes('มิวนัก')) {
-    message.reply('ยักมิวนิคคคค');
   const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/558242677771206656/haQhZWwXpUvn6Zap.mp4')
     message.reply(webAttachment);
    }
