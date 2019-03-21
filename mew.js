@@ -66,6 +66,11 @@ if(message.content.includes('คิดถึงนมน')) {
 if(message.content.includes('หลีกมิวนัก')) {
     message.reply('หลีกสิคะ หนูจะเดิน เดินไม่ได้');
    }
+if(message.content.includes('มิวนัก')) {
+    message.reply('ยักมิวนิคค');
+  const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/558242677771206656/haQhZWwXpUvn6Zap.mp4')
+    message.reply(webAttachment);
+   }
 if(message.content.includes('เกลือ')) {
     message.reply('หนูไม่ได้เกลือค่ะ แค่เป็นตัวของตัวเอง พี่โม่งอย่าเปลี่ยนอะไรหนูเล้ยยย');
    }
