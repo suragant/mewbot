@@ -87,6 +87,10 @@ if(message.content.includes('ใครแกล้งนมน')) {
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556137830812745739/556486781319643166/96cbfc0355f89bba.mp4')
     message.reply(webAttachment);
    }
+if(message.content.includes('ลหนมน')) {
+    const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/487520050459312138/559065290999201792/Screenshot_2019-03-24-00-25-30.jpg')
+    message.reply(webAttachment);
+   }
 if(message.content.includes('หิวข้าว')) {
 	message.reply('หนูก็หิววววววว');
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556137830812745739/556735934280761366/mewwx2.gif')
