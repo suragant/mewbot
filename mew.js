@@ -62,6 +62,15 @@ if(message.content.includes('คิดถึงนมน')) {
 if(message.content.includes('มองกล้อง')) {
     message.reply('หนูมีโควต้ามองกล้องได้คนละ 1 วินาทีค่าาา พลาดเเล้วพลาดเลยน๊าาา');
    }
+if(message.content.includes('หนังสนุกมาก')) {
+    message.reply('อิ...');
+const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/565760055702454272/0dd714a7c932566e.png')
+    message.reply(webAttachment);
+   }
+if(message.content.includes('กระสือสยาม')) {
+const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/565759468927975435/put-litter-in-its-place-symbol_1f6ae.png')
+    message.reply(webAttachment);
+   }
 if(message.content.includes('มิวนัก')) {
   const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/558242677771206656/haQhZWwXpUvn6Zap.mp4')
     message.reply(webAttachment);
