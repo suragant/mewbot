@@ -62,7 +62,7 @@ if(message.content.includes('คิดถึงนมน')) {
 if(message.content.includes('มองกล้อง')) {
     message.reply('หนูมีโควต้ามองกล้องได้คนละ 1 วินาทีค่าาา พลาดเเล้วพลาดเลยน๊าาา');
    }
-if(message.content.includes('หนังสนุกมาก')) {
+if(message.content.includes('หนังนมนสนุกมาก')) {
     message.reply('อิ...');
 const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/565760055702454272/0dd714a7c932566e.png')
     message.reply(webAttachment);
