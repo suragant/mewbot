@@ -75,8 +75,9 @@ if(message.content.includes('มิวนัก')) {
   const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/558242677771206656/haQhZWwXpUvn6Zap.mp4')
     message.reply(webAttachment);
    }
-if(message.content.includes('จุ๊บ')) {
-  const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/558242677771206656/haQhZWwXpUvn6Zap.mp4')
+if(message.content.includes('จุ๊บหน่อย')) {
+  message.reply('รับไปค่าาา');
+  const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/569199325423468574/giphy.gif')
     message.reply(webAttachment);
    }
 if(message.content.includes('เกลือ')) {
