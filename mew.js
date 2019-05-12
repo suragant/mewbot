@@ -45,9 +45,9 @@ if (message.author == botMew.user) {
         return
     }
 if(message.content.includes('นมนมีวัว')) {
-    message.reply('หนูไม่มีวัวค่ะ พี่ฟลุ๊ตก็รู้จักกันมาตั้งแต่เด(้');
+    message.reply('หนูไม่มีวัวค่ะ พี่ฟลุ๊ตก็ลหกันมาตั้งแต่เด็ก สบจด');
    }
-if(message.content.includes('อยากใส่เดี่ยว')) {
+if(message.content.includes('อยากใส่เดี่ยวนมน')) {
     message.reply('ก็มาดิค๊าาาาาาา');
    }
 if(message.content.includes('ตั๊ก')) {
