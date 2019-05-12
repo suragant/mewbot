@@ -44,8 +44,8 @@ botMew.on('message', message => {
 if (message.author == botMew.user) {
         return
     }
-if(message.content.includes('มีวัว')) {
-    message.reply('หนูไม่มีวัวค่ะ มีแต่สัญญาหน้าฝน');
+if(message.content.includes('นมนมีวัว')) {
+    message.reply('หนูไม่มีวัวค่ะ พี่ฟลุ๊ตก็รู้จักกันมาตั้งแต่เด(้');
    }
 if(message.content.includes('อยากใส่เดี่ยว')) {
     message.reply('ก็มาดิค๊าาาาาาา');
