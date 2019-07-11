@@ -96,6 +96,9 @@ if(message.content.includes('บว๊าก')) {
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/556300456117272577/image0-1robot.jpg')
     message.reply(webAttachment);
    }
+if(message.content.includes('รักมิวนิค')) {
+    message.reply('เอาไปค่ะ https://www.youtube.com/watch?v=M96-I22C8og');
+  }
 if(message.content.includes('ใครแกล้งนมน')) {
 	message.reply('พี่จูเน่อะชอบแกล้งหนู');
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556137830812745739/556486781319643166/96cbfc0355f89bba.mp4')
