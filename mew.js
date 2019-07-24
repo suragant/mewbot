@@ -56,6 +56,9 @@ if(message.content.includes('ตั๊ก')) {
 if(message.content.includes('หิวนมน')) {
     message.reply('บ้าาา หนูกินไม่ได้น๊าาา');
    }
+if(message.content.includes('มิวต้า')) {
+    message.reply('วอพกว่าพี่เค้าก็แม่หนูละค่าาาาาา');
+   }
 if(message.content.includes('คิดถึงนมน')) {
     message.reply('คิดถึงหนูก็คุยกับ ฟตซ หนูไปพลางๆก่อนนะค๊าาาา');
    }
@@ -84,7 +87,7 @@ if(message.content.includes('เกลือ')) {
     message.reply('หนูไม่ได้เกลือค่ะ แค่เป็นตัวของตัวเอง พี่โม่งอย่าเปลี่ยนอะไรหนูเล้ยยย');
    }
 if(message.content.includes('โรบอท')) {
-    message.reply('ถ...ถึงหนูจะเป็นโรอ');
+    message.reply('ถ...ถึงหนูจะเป็นโรบอท แต่หนูก็มีหัวใจนะคะ!');
    }
 if(message.content.includes('มีอะไรจะบอกพี่')) {
     message.reply('ไม่มีค่ะ');
