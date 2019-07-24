@@ -44,8 +44,8 @@ botMew.on('message', message => {
 if (message.author == botMew.user) {
         return
     }
-if(message.content.includes('นมนมีวัว')) {
-    message.reply('หนูไม่มีวัวค่ะ พี่ฟลุ๊ตก็ลหกันมาตั้งแต่เด็ก สบจด');
+if(message.content.includes('นมนคลีนมั้ย')) {
+    message.reply('หนูคลีนค่ะ พี่ฟลุ๊ตก็ลหกันมาตั้งแต่เด็ก สบจด');
    }
 if(message.content.includes('อยากใส่เดี่ยวนมน')) {
     message.reply('ก็มาดิค๊าาาาาาา');
