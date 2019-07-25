@@ -55,10 +55,10 @@ if(message.content.includes('อยากใส่เดี่ยวนมน'))
 if(message.content.includes('ตั๊ก')) {
     message.reply('ตั๊กแม่มึงสิ');
    }
-  if (message.content.includes('มีอะไรจะบอกพี่')) { 
-    const replies = ["โม่งเเม่งเหี้ย", "ไม่มีค่ะ"] 
+  if (message.content.includes('มีอะไรจะบอก')) { 
+    const replies = ["โม่งเเม่งเหี้ยค่ะ", "ไม่มีค่ะ", "ถ้าหนูยังเป็นแบบเดิมสุดท้ายก็จะมีแค่พวกพี่ที่ชอบหนู....คนอื่นๆข้างนอกเค้าก็ไม่ได้มาชอบหนู แต่หนูจะพยายามหาจุดกึ่งกลางของตัวเองให้ได้"] 
     message.replytext = Math.floor((Math.random() * replies.length) + 0); 
-    message.channel.send(replies[message.replytext]); 
+    message.reply(replies[message.replytext]); 
   }
 if(message.content.includes('หิวนมน')) {
     message.reply('บ้าาา หนูกินไม่ได้น๊าาา');
