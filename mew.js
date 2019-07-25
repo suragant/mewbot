@@ -56,12 +56,20 @@ if(message.content.includes('ตั๊ก')) {
     message.reply('ตั๊กแม่มึงสิ');
    }
   if (message.content.includes('มีอะไรจะบอก')) { 
-    const replies = ["โม่งเเม่งเหี้ยค่ะ", "ไม่มีค่ะ", "ถ้าหนูยังเป็นแบบเดิมสุดท้ายก็จะมีแค่พวกพี่ที่ชอบหนู....คนอื่นๆข้างนอกเค้าก็ไม่ได้มาชอบหนู แต่หนูจะพยายามหาจุดกึ่งกลางของตัวเองให้ได้"] 
+    const replies = ["โม่งเเม่งเหี้ยค่ะ", "ไม่มีค่ะ", "ถ้าหนูยังเป็นแบบเดิมสุดท้ายก็จะมีแค่พวกพี่ที่ชอบหนู....คนอื่นๆข้างนอกเค้าก็ไม่ได้มาชอบหนู แต่หนูจะพยายามหาจุดกึ่งกลางของตัวเองให้ได้","ตั๊กแม่มึงสิ"] 
+    message.replytext = Math.floor((Math.random() * replies.length) + 0); 
+    message.reply(replies[message.replytext]); 
+  }
+  if (message.content.includes('รักพี่มั้ย')) { 
+    const replies = ["ไม่รัก", "ไม่รัก", "ไม่รัก","ไม่รัก","ไม่รัก","ไม่รัก","ไม่รัก","ไม่รัก","ไม่รัก","รักนะค๊า"] 
     message.replytext = Math.floor((Math.random() * replies.length) + 0); 
     message.reply(replies[message.replytext]); 
   }
 if(message.content.includes('หิวนมน')) {
     message.reply('บ้าาา หนูกินไม่ได้น๊าาา');
+   }
+if(message.content.includes('[พี่บอย]')) {
+    message.reply('คนที่ทำเป็นนมเบรกในดิสทั้งที่ความจริงวอพ no.2 น่ะหรอคะ');
    }
 if(message.content.includes('มิวต้า')) {
     message.reply('วอพกว่าพี่เค้าก็แม่หนูละค่าาาาาา');
