@@ -56,32 +56,32 @@ if(message.content.includes('ตั๊ก')) {
     message.reply('ตั๊กแม่มึงสิ :angry:');
    }
   if (message.content.includes('มีอะไรจะบอก')) { 
-    const replies = ["โม่งเเม่งเหี้ยค่ะ", "ไม่มีค่ะ", "ถ้าหนูยังเป็นแบบเดิมสุดท้ายก็จะมีแค่พวกพี่ที่ชอบหนู....คนอื่นๆข้างนอกเค้าก็ไม่ได้มาชอบหนู แต่หนูจะพยายามหาจุดกึ่งกลางของตัวเองให้ได้ :sob:","ตั๊กแม่มึงสิ"] 
+    const replies = ["โม่งเเม่งเหี้ยค่ะ", "ไม่มีค่ะ", "ถ้าหนูยังเป็นแบบเดิมสุดท้ายก็จะมีแค่พวกพี่ที่ชอบหนู....คนอื่นๆข้างนอกเค้าก็ไม่ได้มาชอบหนู แต่หนูจะพยายามหาจุดกึ่งกลางของตัวเองให้ได้ :sob:","ตั๊กแม่มึงสิ:angry:","วันนี้หนูไม่สบาย ::thermometer_face: :"] 
     message.replytext = Math.floor((Math.random() * replies.length) + 0); 
     message.reply(replies[message.replytext]); 
   }
   if (message.content.includes('รักพี่มั้ย')) { 
-    const replies = ["ไม่รัก", "ไม่รัก", "ไม่รัก","ไม่รัก","ไม่รัก","ไม่รัก","ไม่รัก","ไม่รัก","ไม่รัก","รักนะค๊า"] 
+    const replies = ["ไม่รัก", "ไม่รัก", "ไม่รัก","ไม่รัก","ไม่รัก","ไม่รัก","ไม่รัก","ไม่รัก","ไม่รัก","รักนะค๊า:kissing_heart: "] 
     message.replytext = Math.floor((Math.random() * replies.length) + 0); 
     message.reply(replies[message.replytext]); 
   }
 if(message.content.includes('หิวนมน')) {
-    message.reply('บ้าาา หนูกินไม่ได้น๊าาา');
+    message.reply('บ้าาา หนูกินไม่ได้น๊าาา :flushed: ');
    }
 if(message.content.includes('[พี่บอย]')) {
-    message.reply('คนที่ทำเป็นนมเบรกในดิสทั้งที่ความจริงวอพ no.2 น่ะหรอคะ');
+    message.reply('คนที่ทำเป็นนมเบรกในดิสทั้งที่ความจริงวอพ no.2 น่ะหรอคะ :rolling_eyes: ');
    }
 if(message.content.includes('มิวต้า')) {
     message.reply('วอพกว่าพี่เค้าก็แม่หนูละค่าาาาาา');
    }
 if(message.content.includes('คิดถึงนมน')) {
-    message.reply('คิดถึงหนูก็คุยกับ ฟตซ หนูไปพลางๆก่อนนะค๊าาาา');
+    message.reply('คิดถึงหนูก็คุยกับ ฟตซ หนูไปพลางๆก่อนนะค๊าาาา :wink: ');
    }
 if(message.content.includes('มองกล้อง')) {
-    message.reply('หนูมีโควต้ามองกล้องได้คนละ 1 วินาทีค่าาา พลาดเเล้วพลาดเลยน๊าาา');
+    message.reply('หนูมีโควต้ามองกล้องได้คนละ 1 วินาทีค่าาา พลาดเเล้วพลาดเลยน๊าาา:grimacing: ');
    }
 if(message.content.includes('หนังนมนสนุกมาก')) {
-    message.reply('อิ...');
+    message.reply(':rolling_eyes: ');
 const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/565760055702454272/0dd714a7c932566e.png')
     message.reply(webAttachment);
    }
@@ -94,18 +94,19 @@ if(message.content.includes('มิวนัก')) {
     message.reply(webAttachment);
    }
 if(message.content.includes('จุ๊บหน่อย')) {
-  message.reply('รับไปค่าาา');
+  message.reply('รับไปค่าาา:kissing_heart: ');
   const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/569199325423468574/giphy.gif')
     message.reply(webAttachment);
    }
 if(message.content.includes('เกลือ')) {
-    message.reply('หนูไม่ได้เกลือค่ะ แค่เป็นตัวของตัวเอง พี่โม่งอย่าเปลี่ยนอะไรหนูเล้ยยย');
+    message.reply('หนูไม่ได้เกลือค่ะ แค่เป็นตัวของตัวเอง พี่โม่งอย่าเปลี่ยนอะไรหนูเล้ยยย:sweat_smile: ');
    }
 if(message.content.includes('โรบอท')) {
     message.reply('ถ...ถึงหนูจะเป็นโรบอท แต่หนูก็มีหัวใจนะคะ!');
+    message.reply(":rage: ");
    }
 if(message.content.includes('ขอหยิก')) {
-    message.reply('ม...ไม่ได้นะคะ');
+    message.reply('ม...ไม่ได้นะคะ:flushed: ');
 const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/556315295418155018/image0-112.jpg')
     message.reply(webAttachment);
    }
@@ -121,7 +122,7 @@ if(message.content.includes('รักมิวนิค')) {
     message.reply('เอาไปค่ะ https://www.youtube.com/watch?v=M96-I22C8og');
   }
 if(message.content.includes('ใครแกล้งนมน')) {
-	message.reply('พี่จูเน่อะชอบแกล้งหนู');
+	message.reply('พี่จูเน่อะชอบแกล้งหนู:persevere: ');
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556137830812745739/556486781319643166/96cbfc0355f89bba.mp4')
     message.reply(webAttachment);
    }
@@ -136,12 +137,12 @@ if(message.content.includes('หิวข้าว')) {
    }
   if(message.content.includes('นมน')) {
   if(message.content.includes('ฝันดี')) {
-	message.reply('ฝันดีค่ะพี่โม่ง จุ๊บบบ');
+	message.reply('ฝันดีค่ะพี่โม่ง จุ๊บบบ:kissing_heart: ');
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/487520050459312138/557942330523516928/image0.gif')
     message.reply(webAttachment);
    }
     if(message.content.includes('น่ารัก')) {
-	message.reply('ถ้ารักหนู ก็ทนให้ได้เวลาที่หนูเกลือด้วยนะค๊าาาาาาา');
+	message.reply('ถ้ารักหนู ก็ทนให้ได้เวลาที่หนูเกลือด้วยนะค๊าาาาาาา:smirk: ');
      }
   }
 });
