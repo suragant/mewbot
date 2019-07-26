@@ -7,6 +7,8 @@ const app = express();
 const server = require('./server.js');
 
 
+
+
 //event นี้ทำงานเมื่อ login สำเร็จ
 botMew.on('ready', () => {
   console.log('Mewkazawa!');
