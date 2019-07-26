@@ -126,7 +126,7 @@ if(message.content.includes('ใครแกล้งนมน')) {
     message.reply(webAttachment);
    }
 if(message.content.includes('ลหนมน')) {
-    const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/487520050459312138/559065290999201792/Screenshot_2019-03-24-00-25-30.jpg')
+    const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/604264444104802304/image0.png')
     message.reply(webAttachment);
    }
 if(message.content.includes('หิวข้าว')) {
