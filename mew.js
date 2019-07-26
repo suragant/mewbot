@@ -7,8 +7,6 @@ const app = express();
 const server = require('./server.js');
 
 
-
-
 //event นี้ทำงานเมื่อ login สำเร็จ
 botMew.on('ready', () => {
   console.log('Mewkazawa!');
@@ -49,16 +47,16 @@ if (message.author == botMew.user) {
         return
     }
 if(message.content.includes('นมนคลีนมั้ย')) {
-    message.reply('หนูคลีนค่ะ พี่ฟลุ๊ตก็ลหกันมาตั้งแต่เด็ก สบจด');
+    message.reply('หนูคลีนค่ะ พี่ฟลุ๊ตก็ลหกันมาตั้งแต่เด็ก สบจด :smirk:');
    }
 if(message.content.includes('อยากใส่เดี่ยวนมน')) {
-    message.reply('ก็มาดิค๊าาาาาาา');
+    message.reply('ก็มาดิค๊าาาาาาา :punch:');
    }
 if(message.content.includes('ตั๊ก')) {
-    message.reply('ตั๊กแม่มึงสิ');
+    message.reply('ตั๊กแม่มึงสิ :angry:');
    }
   if (message.content.includes('มีอะไรจะบอก')) { 
-    const replies = ["โม่งเเม่งเหี้ยค่ะ", "ไม่มีค่ะ", "ถ้าหนูยังเป็นแบบเดิมสุดท้ายก็จะมีแค่พวกพี่ที่ชอบหนู....คนอื่นๆข้างนอกเค้าก็ไม่ได้มาชอบหนู แต่หนูจะพยายามหาจุดกึ่งกลางของตัวเองให้ได้","ตั๊กแม่มึงสิ"] 
+    const replies = ["โม่งเเม่งเหี้ยค่ะ", "ไม่มีค่ะ", "ถ้าหนูยังเป็นแบบเดิมสุดท้ายก็จะมีแค่พวกพี่ที่ชอบหนู....คนอื่นๆข้างนอกเค้าก็ไม่ได้มาชอบหนู แต่หนูจะพยายามหาจุดกึ่งกลางของตัวเองให้ได้ :sob:","ตั๊กแม่มึงสิ"] 
     message.replytext = Math.floor((Math.random() * replies.length) + 0); 
     message.reply(replies[message.replytext]); 
   }
