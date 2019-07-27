@@ -68,11 +68,8 @@ if(message.content.includes('ตั๊ก')) {
 if(message.content.includes('หิวนมน')) {
     message.reply('บ้าาา หนูกินไม่ได้น๊าาา :flushed: ');
    }
-if(message.content.includes('[พี่บอย]')) {
-    message.reply('คนที่ทำเป็นนมเบรกในดิสทั้งที่ความจริงวอพ no.2 น่ะหรอคะ :rolling_eyes: ');
-   }
 if(message.content.includes('มิวต้า')) {
-    message.reply('วอพกว่าพี่เค้าก็แม่หนูละค่าาาาาา');
+    message.reply('คนที่ทำเป็นนมเบรกในดิสทั้งที่ความจริงวอพ no.2 น่ะหรอคะ :rolling_eyes:');
    }
 if(message.content.includes('คิดถึงนมน')) {
     message.reply('คิดถึงหนูก็คุยกับ ฟตซ หนูไปพลางๆก่อนนะค๊าาาา :wink: ');
