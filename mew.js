@@ -65,6 +65,13 @@ if(message.content.includes('ตั๊ก')) {
     message.replytext = Math.floor((Math.random() * replies.length) + 0); 
     message.reply(replies[message.replytext]); 
   }
+   if (message.content.includes('มองกล้อง')) { 
+  const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/608587483143471104/67455588_2257052374608512_6991584593220468736_o.png')
+  const webAttachment2 = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/608587581659283456/68285851_2259721187674964_3601249877771681792_o.png')
+    const replies = [webAttachment, webAttachment2] 
+    message.replytext = Math.floor((Math.random() * replies.length) + 0); 
+    message.reply(replies[message.replytext]); 
+  }
 if(message.content.includes('หิวนมน')) {
     message.reply('บ้าาา หนูกินไม่ได้น๊าาา :flushed: ');
    }
@@ -73,9 +80,6 @@ if(message.content.includes('มิวต้า')) {
    }
 if(message.content.includes('คิดถึงนมน')) {
     message.reply('คิดถึงหนูก็คุยกับ ฟตซ หนูไปพลางๆก่อนนะค๊าาาา :wink: ');
-   }
-if(message.content.includes('มองกล้อง')) {
-    message.reply('หนูมีโควต้ามองกล้องได้คนละ 1 วินาทีค่าาา พลาดเเล้วพลาดเลยน๊าาา:grimacing: ');
    }
 if(message.content.includes('หนังนมนสนุกมาก')) {
     message.reply(':rolling_eyes: ');
