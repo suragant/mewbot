@@ -56,7 +56,8 @@ if(message.content.includes('ตั๊ก')) {
     message.reply('ตั๊กแม่มึงสิ :angry:');
    }
   if (message.content.includes('มีอะไรจะบอก')) { 
-    const replies = ["โม่งเเม่งเหี้ยค่ะ", "ไม่มีค่ะ", "ถ้าหนูยังเป็นแบบเดิมสุดท้ายก็จะมีแค่พวกพี่ที่ชอบหนู....คนอื่นๆข้างนอกเค้าก็ไม่ได้มาชอบหนู แต่หนูจะพยายามหาจุดกึ่งกลางของตัวเองให้ได้ :sob:","ตั๊กแม่มึงสิ:angry:","วันนี้หนูไม่สบาย ::thermometer_face: :"] 
+    const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/487520050459312138/605408577930264636/image0.gif')
+    const replies = ["โม่งเเม่งเหี้ยค่ะ", "ไม่มีค่ะ", "ถ้าหนูยังเป็นแบบเดิมสุดท้ายก็จะมีแค่พวกพี่ที่ชอบหนู....คนอื่นๆข้างนอกเค้าก็ไม่ได้มาชอบหนู แต่หนูจะพยายามหาจุดกึ่งกลางของตัวเองให้ได้ (webAttachment" ,"ตั๊กแม่มึงสิ:angry:","วันนี้หนูไม่สบาย ::thermometer_face: :"] 
     message.replytext = Math.floor((Math.random() * replies.length) + 0); 
     message.reply(replies[message.replytext]); 
   }
