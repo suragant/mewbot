@@ -59,7 +59,7 @@ if(message.content.includes('ตั๊ก')) {
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/612959596310691841/image0-min.gif')  
     const replies = ["โม่งเเม่งเหี้ยค่ะ", "ไม่มีค่ะ", "ถ้าหนูยังเป็นแบบเดิมสุดท้ายก็จะมีแค่พวกพี่ที่ชอบหนู....คนอื่นๆข้างนอกเค้าก็ไม่ได้มาชอบหนู แต่หนูจะพยายามหาจุดกึ่งกลางของตัวเองให้ได้","ตั๊กแม่มึงสิ:angry:","วันนี้หนูไม่สบาย :thermometer_face:"] 
     message.replytext = Math.floor((Math.random() * replies.length) + 0); 
-      if (replies.length = 'ถ้าหนูยังเป็นแบบเดิมสุดท้ายก็จะมีแค่พวกพี่ที่ชอบหนู....คนอื่นๆข้างนอกเค้าก็ไม่ได้มาชอบหนู แต่หนูจะพยายามหาจุดกึ่งกลางของตัวเองให้ได้'){
+      if (replies[message.replytext]=="ถ้าหนูยังเป็นแบบเดิมสุดท้ายก็จะมีแค่พวกพี่ที่ชอบหนู....คนอื่นๆข้างนอกเค้าก็ไม่ได้มาชอบหนู แต่หนูจะพยายามหาจุดกึ่งกลางของตัวเองให้ได้"){
         message.reply(replies[message.replytext]); 
         message.reply(webAttachment);
     }
