@@ -72,9 +72,10 @@ if(message.content.includes('ตั๊ก')) {
     message.reply(replies[message.replytext]); 
   }
    if (message.content.includes('มองกล้อง')) { 
-  const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/608587483143471104/67455588_2257052374608512_6991584593220468736_o.png')
+  const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556068136626028544/616910396338733076/69497802_697472364060689_3972169597120937984_n.jpg')
   const webAttachment2 = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/608587581659283456/68285851_2259721187674964_3601249877771681792_o.png')
-    const replies = [webAttachment, webAttachment2] 
+  const webAttachment3 = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/616910926003699712/EDMlPwnUUAAnSp5.jpg')
+    const replies = [webAttachment, webAttachment2, webAttachment3] 
     message.replytext = Math.floor((Math.random() * replies.length) + 0); 
     message.reply(replies[message.replytext]); 
   }
