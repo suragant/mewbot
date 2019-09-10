@@ -50,7 +50,9 @@ if(message.content.includes('นมนคลีนมั้ย')) {
     message.reply('หนูคลีนค่ะ พี่ฟลุ๊ตก็ลหกันมาตั้งแต่เด็ก สบจด :smirk:');
    }
 if(message.content.includes('อยากใส่เดี่ยวนมน')) {
-    message.reply('ก็มาดิค๊าาาาาาา :punch:');
+  const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/620600208861954086/a986bf61422cda5d.mp4')
+    message.reply('ก็มาดิค๊าบบบบบบบบบบ :punch:');
+    message.reply(webAttachment);
    }
 if(message.content.includes('ตั๊ก')) {
     message.reply('ตั๊กแม่มึงสิ :angry:');
