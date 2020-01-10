@@ -85,9 +85,15 @@ if(message.content.includes('ตั๊ก')) {
 if(message.content.includes('หิวนมน')) {
     message.reply('บ้าาา หนูกินไม่ได้น๊าาา :flushed: ');
    }
+if(message.content.includes('จำพี่ได้ไหม')) {
+    message.reply('โห่ย ชั่วโมงเดียวหนูก็ลืมแล้วค่า');
+   }
 if(message.content.includes('มิวต้า')) {
     message.reply('คนที่ทำเป็นนมเบรกในดิสทั้งที่ความจริงวอพ no.1 น่ะหรอคะ :rolling_eyes:');
    }
+ if(message.content.includes('ห อ ม')) {
+    message.reply('คนที่ทำเป็นนมเบรกในดิสทั้งที่ความจริงวอพ no.1 น่ะหรอคะ :rolling_eyes:');
+   } 
 if(message.content.includes('คิดถึงนมน')) {
     message.reply('คิดถึงหนูก็คุยกับ ฟตซ หนูไปพลางๆก่อนนะค๊าาาา :wink: ');
    }
