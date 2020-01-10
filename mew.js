@@ -91,9 +91,12 @@ if(message.content.includes('จำพี่ได้ไหม')) {
 if(message.content.includes('มิวต้า')) {
     message.reply('คนที่ทำเป็นนมเบรกในดิสทั้งที่ความจริงวอพ no.1 น่ะหรอคะ :rolling_eyes:');
    }
- if(message.content.includes('ห อ ม')) {
-    message.reply('คนที่ทำเป็นนมเบรกในดิสทั้งที่ความจริงวอพ no.1 น่ะหรอคะ :rolling_eyes:');
-   } 
+ if (message.content.includes('หอม')) { 
+    const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/665107642221461524/654534008146755594.png')
+    const replies = ["หอมแม่มึงสิ","พวกโม่ยนี่เงี่ยนนักก็ไปบำบัดเหอะ ธรรมชาติของผู้ชายควยไรอะ ไปโม่ยใส่แม่มึงนะ",webAttachment,"น...หนูเขินน๊าา :flushed:"] 
+    message.replytext = Math.floor((Math.random() * replies.length) + 0); 
+    message.reply(replies[message.replytext]); 
+  }
 if(message.content.includes('คิดถึงนมน')) {
     message.reply('คิดถึงหนูก็คุยกับ ฟตซ หนูไปพลางๆก่อนนะค๊าาาา :wink: ');
    }
@@ -163,7 +166,7 @@ if(message.content.includes('หิวข้าว')) {
     message.reply(webAttachment);
    }
     if(message.content.includes('น่ารัก')) {
-	message.reply('ถ้ารักหนู ก็ทนให้ได้เวลาที่หนูเกลือด้วยนะค๊าาาาาาา:smirk: ');
+	message.reply('ถ้ารักหนู ก็ทนให้ได้เวลาที่หนูเกลือด้วยนะค๊าาาาาาา ');
      }
   }
 });
