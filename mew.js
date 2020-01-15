@@ -85,7 +85,7 @@ if(message.content.includes('ตั๊ก')) {
 if(message.content.includes('หิวนมน')) {
     message.reply('บ้าาา หนูกินไม่ได้น๊าาา :flushed: ');
    }
-if(message.content.includes('จำพี่ได้ไหม')) {
+if(message.content.includes('จำพี่ได้')) {
     message.reply('โห่ย ชั่วโมงเดียวหนูก็ลืมแล้วค่า');
    }
 if(message.content.includes('มิวต้า')) {
