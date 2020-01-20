@@ -91,9 +91,22 @@ if(message.content.includes('จำพี่ได้')) {
 if(message.content.includes('มิวต้า')) {
     message.reply('คนที่ทำเป็นนมเบรกในดิสทั้งที่ความจริงวอพ no.1 น่ะหรอคะ :rolling_eyes:');
    }
- if (message.content.includes('หอม')) { 
+  if(message.content.includes('หอมหน่อย')) {
+    const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556137830812745739/668771204886298632/ezgif-6-dd46aaf93a0f.gif')
+    message.reply(webAttachment);
+   }
+  if(message.content.includes('วิ๊งหน่อย')) {
+    const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556137830812745739/668783355990638603/ezgif-5-ef03cfa550ea.gif')
+    message.reply(webAttachment);
+   }
+    if(message.content.includes('มิวนิคคุง')) {
+    const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556137830812745739/668774196989526016/video0.mp4')
+    message.reply(webAttachment);
+   }
+ if (message.content.includes('ห อ ม')) { 
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/665107642221461524/654534008146755594.png')
-    const replies = ["หอมแม่มึงสิ","พวกโม่ยนี่เงี่ยนนักก็ไปบำบัดเหอะ ธรรมชาติของผู้ชายควยไรอะ ไปโม่ยใส่แม่มึงนะ",webAttachment,"น...หนูเขินน๊าา :flushed:"] 
+    const webAttachment2 = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/668783882492968980/IMG_20200105_110421.jpg')
+    const replies = ["หอมแม่มึงสิ","พวกโม่ยนี่เงี่ยนนักก็ไปบำบัดเหอะ ธรรมชาติของผู้ชายควยไรอะ ไปโม่ยใส่แม่มึงนะ",webAttachment,webAttachment2,"น...หนูเขินน๊าา :flushed:"] 
     message.replytext = Math.floor((Math.random() * replies.length) + 0); 
     message.reply(replies[message.replytext]); 
   }
