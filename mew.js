@@ -75,7 +75,7 @@ if(message.content.includes('ตั๊ก')) {
     message.reply(replies[message.replytext]); 
   }
    if (message.content.includes('มองกล้อง')) { 
-  const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/621188553065627658/ED9ZGIFUwAYAkS4.jpg')
+  const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/536067970997157900/668834239965429790/ezgif-5-6c25fc207d70.gif')
   const webAttachment2 = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/608587581659283456/68285851_2259721187674964_3601249877771681792_o.png')
   const webAttachment3 = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/616910926003699712/EDMlPwnUUAAnSp5.jpg')
     const replies = [webAttachment, webAttachment2, webAttachment3] 
