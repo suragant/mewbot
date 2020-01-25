@@ -103,9 +103,6 @@ if(message.content.includes('มิวต้า')) {
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556137830812745739/668774196989526016/video0.mp4')
     message.reply(webAttachment);
    }
-  if(message.content.includes('ระวังคอเสื้อ')) {
-    const webAttachment = new Discord.Attachment('https://media.discordapp.net/attachments/665248777040298026/665251254175399976/image0.gif')
-    message
  if (message.content.includes('ห อ ม')) { 
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/665107642221461524/654534008146755594.png')
     const webAttachment2 = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/668783882492968980/IMG_20200105_110421.jpg')
