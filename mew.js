@@ -104,7 +104,7 @@ if(message.content.includes('มิวต้า')) {
     message.reply(webAttachment);
    }
     if(message.content.includes('ระวังคอเสื้อ')) {
-    const webAttachment = new Discord.Attachment('https://media.discordapp.net/attachments/665248777040298026/665251254175399976/image0.gif')
+    const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/671322770537447429/ezgif-2-6d2428e4edc7.gif')
     message.reply(webAttachment);
    }
   if(message.content.includes('หอมพี่หน่อย')) {
