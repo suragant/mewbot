@@ -107,6 +107,10 @@ if(message.content.includes('มิวต้า')) {
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/671322770537447429/ezgif-2-6d2428e4edc7.gif')
     message.reply(webAttachment);
    }
+    if(message.content.includes('นมนอย')) {
+    const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/671560735528058880/ezgif-7-ad7eba98051b.gif')
+    message.reply(webAttachment);
+   }
   if(message.content.includes('หอมพี่หน่อย')) {
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/670620898083995658/ezgif-6-939d06398f86.gif')
     const webAttachment2 = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/670633136501030922/ezgif-6-53a854b371e2.gif')
