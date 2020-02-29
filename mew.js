@@ -13,8 +13,19 @@ botMew.on('ready', () => {
 });
 //รอรับ event message เวลามีข้อความโผล่มาในแชท function นี้ก็จะทำงาน
 botMew.on('message', message => { 
-  if (message.content === 'รักนมนนะครับ') {
-    message.reply('คนรักกันจริงเค้าไม่มาคิดเล็กคิดน้อยแค่เรื่องมองกล้องไม่มองกล้องหรอกค่าาาาาา');
+  if (message.content.includes('รักนมนนะครับ')) { 
+    const webAttachment2 = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/681002387980550175/tenor.gif')
+    const replies = ["คนรักกันจริงเค้าไม่มาคิดเล็กคิดน้อยแค่เรื่องมองกล้องไม่มองกล้องหรอกค่าาาาาา", "บ้าน่ะ หนูเขิงงงง"] 
+    message.replytext = Math.floor((Math.random() * replies.length) + 0); 
+      if (replies[message.replytext]=="เขิงงงง"){
+        message.reply(replies[message.replytext]); 
+        message.reply(webAttachment2);
+    }
+    else
+        message.reply(replies[message.replytext]); 
+  }
+  if (message.content === '') {
+    message.reply('');
   }
 });
 botMew.on('message', message => { 
