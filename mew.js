@@ -91,10 +91,18 @@ if(message.content.includes('จำพี่ได้')) {
 if(message.content.includes('มิวต้า')) {
     message.reply('คนที่ทำเป็นนมเบรกในดิสทั้งที่ความจริงวอพ no.1 น่ะหรอคะ :rolling_eyes:');
    }
-  if(message.content.includes('หอมหน่อย')) {
-    const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556137830812745739/668771204886298632/ezgif-6-dd46aaf93a0f.gif')
-    message.reply(webAttachment);
-   }
+  if (message.content.includes('หอมหน่อย')) { 
+    const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556137830812745739/668771204886298632/ezgif-6-dd46aaf93a0f.gif')  
+    const webAttachment2 = new Discord.Attachment('https://cdn.discordapp.com/attachments/556137830812745739/682643227471642647/ezgif-6-5c1a448235c3.gif')
+    const replies = [webAttachment2,"อะๆ หอมให้โดนนะ"] 
+    message.replytext = Math.floor((Math.random() * replies.length) + 0); 
+      if (replies[message.replytext]=="อะๆ หอมให้โดนนะ"){
+        message.reply(replies[message.replytext]); 
+        message.reply(webAttachment2);
+    }
+    else
+        message.reply(replies[message.replytext]); 
+  }
   if(message.content.includes('วิ๊งหน่อย')) {
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556137830812745739/668783355990638603/ezgif-5-ef03cfa550ea.gif')
     message.reply(webAttachment);
