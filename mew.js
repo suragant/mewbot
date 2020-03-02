@@ -17,7 +17,7 @@ botMew.on('message', message => {
     const webAttachment2 = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/681002387980550175/tenor.gif')
     const replies = ["คนรักกันจริงเค้าไม่มาคิดเล็กคิดน้อยแค่เรื่องมองกล้องไม่มองกล้องหรอกค่าาาาาา", "บ้าน่ะ หนูเขิงงงง"] 
     message.replytext = Math.floor((Math.random() * replies.length) + 0); 
-      if (replies[message.replytext]=="เขิงงงง"){
+      if (replies[message.replytext]=="บ้าน่ะ หนูเขิงงงง"){
         message.reply(replies[message.replytext]); 
         message.reply(webAttachment2);
     }
