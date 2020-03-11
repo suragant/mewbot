@@ -118,6 +118,10 @@ if(message.content.includes('มิวต้า')) {
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556137830812745739/668783355990638603/ezgif-5-ef03cfa550ea.gif')
     message.reply(webAttachment);
    }
+    if(message.content.includes('HBD')) {
+    const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/536067970997157900/686992055313891365/FZ4PGRo48T8ackaT.mp4')
+    message.reply(webAttachment);
+   }
     if(message.content.includes('มิวนิคคุง')) {
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556137830812745739/668774196989526016/video0.mp4')
     message.reply(webAttachment);
