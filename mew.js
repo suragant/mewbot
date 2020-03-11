@@ -32,19 +32,6 @@ botMew.on('message', message => {
  if (message.author == botMew.user) {
         return
     } 
-
-const filter = m => m.content.includes('discord');
-const collector = message.channel.createMessageCollector(filter, { time: 15000 });
-
-collector.on('collect', m => {
-	console.log(`Collected ${m.content}`);
-});
-
-collector.on('end', collected => {
-	console.log(`Collected ${collected.size} items`);
-});
-  
-  
   if (message.content === ('หยิกมิว')) {
     message.reply('มิวอะไรคะ มิวนักรึป่าวน๊าาาาา');
   }
