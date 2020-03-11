@@ -11,7 +11,7 @@ const server = require('./server.js');
 botMew.on('ready', () => {
   console.log('Mewkazawa!');
 });
-//รอรับ event message เวลามีข้อความโผล่มาในแชท function นี้ก็จะทำงาน
+
 botMew.on('message', message => { 
   if (message.content.includes('รักนมนนะครับ')) { 
     const webAttachment2 = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/681002387980550175/tenor.gif')
@@ -32,6 +32,19 @@ botMew.on('message', message => {
  if (message.author == botMew.user) {
         return
     } 
+
+const filter = m => m.content.includes('discord');
+const collector = message.channel.createMessageCollector(filter, { time: 15000 });
+
+collector.on('collect', m => {
+	console.log(`Collected ${m.content}`);
+});
+
+collector.on('end', collected => {
+	console.log(`Collected ${collected.size} items`);
+});
+  
+  
   if (message.content === ('หยิกมิว')) {
     message.reply('มิวอะไรคะ มิวนักรึป่าวน๊าาาาา');
   }
@@ -220,5 +233,6 @@ if(message.content.includes('หิวข้าว')) {
 	message.reply('ถ้ารักหนู ก็ทนให้ได้เวลาที่หนูเกลือด้วยนะค๊าาาาาาา ');
      }
   }
+
 });
 botMew.login(discord_token);     
