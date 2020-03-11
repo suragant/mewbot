@@ -1,13 +1,11 @@
-const Discord = require('discord.js'); //เรียก discord.js มาใช้
-const botMew = new Discord.Client(); //ประกาศ client ขึ้นมา
+const Discord = require('discord.js'); 
+const botMew = new Discord.Client(); 
 const discord_token = process.env.TOKEN;
 const http = require("http");
 const express = require("express");
 const app = express();
 const server = require('./server.js');
 
-
-//event นี้ทำงานเมื่อ login สำเร็จ
 botMew.on('ready', () => {
   console.log('Mewkazawa!');
 });
