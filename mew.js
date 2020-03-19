@@ -63,6 +63,10 @@ if(message.content.includes('อยากใส่เดี่ยวนมน'))
     message.reply('ก็มาดิค๊าบบบบบบบบบบ :punch:');
     message.reply(webAttachment);
    }
+  if(message.content.includes('เล่นมุก')) {
+  const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/536067970997157900/690263919952003138/StorySaver_mewnich.bnk48official_77342379_3039744959389792_9144719961294701932_n.mp4')
+    message.reply(webAttachment);
+   }
 if(message.content.includes('ตั๊ก')) {
     message.reply('ตั๊กแม่มึงสิ :angry:');
    }
