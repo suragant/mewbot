@@ -107,7 +107,7 @@ if(message.content.includes('มิวต้า')) {
   if (message.content.includes('หอมหน่อย')) { 
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556137830812745739/668771204886298632/ezgif-6-dd46aaf93a0f.gif')  
     const webAttachment2 = new Discord.Attachment('https://cdn.discordapp.com/attachments/556137830812745739/682643227471642647/ezgif-6-5c1a448235c3.gif')
-    const replies = [webAttachment2,"อะๆ หอมให้โดนนะ"] 
+    const replies = [webAttachment,"อะๆ หอมให้โดนนะ"] 
     message.replytext = Math.floor((Math.random() * replies.length) + 0); 
       if (replies[message.replytext]=="อะๆ หอมให้โดนนะ"){
         message.reply(replies[message.replytext]); 
@@ -134,6 +134,11 @@ if(message.content.includes('มิวต้า')) {
    }
     if(message.content.includes('นมนอยู่ตี้หนายๆ')) {
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/671560735528058880/ezgif-7-ad7eba98051b.gif')
+    message.reply(webAttachment);
+   }
+   if(message.content.includes('ต่อย')) {
+  const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/668098852238131230/691237941497954344/ezgif-1-8b9c1a92ecb3.gif')
+    message.reply('โอร่าๆๆ');
     message.reply(webAttachment);
    }
   if(message.content.includes('หอมพี่หน่อย')) {
