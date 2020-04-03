@@ -181,7 +181,9 @@ if(message.content.includes('จุ๊บหน่อย')) {
     message.reply(webAttachment);
    }
 if(message.content.includes('เกลือ')) {
-    message.reply('หนูไม่ได้เกลือค่ะ แค่เป็นตัวของตัวเอง พี่โม่งอย่าเปลี่ยนอะไรหนูเล้ยยย:sweat_smile: ');
+  message.reply('เกลือมมส');
+  const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/695694468682219640/ezgif-3-3e6d5874d370.gif')
+    message.reply(webAttachment);
    }
 if(message.content.includes('โรบอท')) {
     message.reply('ถ...ถึงหนูจะเป็นโรบอท แต่หนูก็มีหัวใจนะคะ!');
