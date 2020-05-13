@@ -152,7 +152,7 @@ if(message.content.includes('มิวต้า')) {
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/665107642221461524/654534008146755594.png')
     const webAttachment2 = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/668783882492968980/IMG_20200105_110421.jpg')
     const webAttachment3 = new Discord.Attachment('https://cdn.discordapp.com/attachments/556184498073763860/708201194002317362/image0_2.png')
-    const replies = ["หอมแม่มึงสิ","พวกโม่ยนี่เงี่ยนนักก็ไปบำบัดเหอะ ธรรมชาติของผู้ชายควยไรอะ ไปโม่ยใส่แม่มึงนะ",webAttachment,webAttachment2,,webAttachment2"น...หนูเขินน๊าา :flushed:"] 
+    const replies = ["หอมแม่มึงสิ","พวกโม่ยนี่เงี่ยนนักก็ไปบำบัดเหอะ ธรรมชาติของผู้ชายควยไรอะ ไปโม่ยใส่แม่มึงนะ",webAttachment,webAttachment2,webAttachment3,"น...หนูเขินน๊าา :flushed:"] 
     message.replytext = Math.floor((Math.random() * replies.length) + 0); 
     message.reply(replies[message.replytext]); 
   }
