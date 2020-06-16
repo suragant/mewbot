@@ -132,6 +132,10 @@ if(message.content.includes('มิวต้า')) {
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/671322770537447429/ezgif-2-6d2428e4edc7.gif')
     message.reply(webAttachment);
    }
+    if(message.content.includes('พี่กัน')) {
+    const webAttachment = new Discord.Attachment('https://media.discordapp.net/attachments/487520050459312138/722045784601919498/image0.jpg')
+    message.reply(webAttachment);
+   }
     if(message.content.includes('นมนอยู่ตี้หนายๆ')) {
     const webAttachment = new Discord.Attachment('https://cdn.discordapp.com/attachments/556128521437577228/671560735528058880/ezgif-7-ad7eba98051b.gif')
     message.reply(webAttachment);
