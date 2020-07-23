@@ -2,17 +2,13 @@
   "name": "Mewkazawa",
   "version": "1.0.0",
   "description": "Mewnich Bot",
-  "main": "server.js",
+  "main": "mew.js",
     "scripts": {
     "start": "node mew.js"
   },
   "author": "StJimmy",
   "dependencies": {
-    "discord.io": "^2.5.3",
-    "discord.js": "^11.4.2",
-    "express": "^4.16.4",
-    "winston": "^2.4.4",
-    "winston2": "^1.0.3"
-    
+ "discord.js": "11.1.0",
+ "request": "2.81.0" 
   }
 }
