@@ -1,6 +1,5 @@
 const Discord = require('discord.js'); 
 const botMew = new Discord.Client(); 
-const discord_token = process.env.qeA6TJO2NNsRMQQ-uGbmOms7ICjURMXu;
 const http = require("http");
 const express = require("express");
 const app = express();
@@ -236,4 +235,4 @@ if(message.content.includes('หิวข้าว')) {
   }
 
 });
-botMew.login(discord_token);     
+botMew.login(process.env.qeA6TJO2NNsRMQQ-uGbmOms7ICjURMXu);
