@@ -231,4 +231,4 @@ if(message.content.includes('หิวข้าว')) {
   }
 
 });
-botMew.login(process.env.qeA6TJO2NNsRMQQ-uGbmOms7ICjURMXu);
+botMew.login(process.env.NjY4NzYyNTM0MTMxNTMxNzk4.XiWAAQ.gRo0LNuCYMPwtbXy7DTVsOiVCoE);
