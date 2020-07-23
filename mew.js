@@ -1,9 +1,5 @@
 const Discord = require('discord.js'); 
 const botMew = new Discord.Client(); 
-const http = require("http");
-const express = require("express");
-const app = express();
-const server = require('./server.js');
 
 botMew.on('ready', () => {
   console.log('Mewkazawa!');
